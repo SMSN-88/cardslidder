@@ -11,13 +11,12 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 0 35px;
-    background: url('https://addons-media.operacdn.com/media/CACHE/images/themes/35/178835/1.1-rev1/images/b077a974-8423-4c55-8ac7-6dcb3fbf66c6/a0aadf9c6685fb90cace15bb1c649f90.jpg')
+    background: 
 }
 body h1 {
     margin-bottom: 500px;
     text-align: center;
     margin-left: 0px;
-    text-shadow: -2px 2px 2px white;
 }
 .wrapper{
     max-width: 1100px;
@@ -99,19 +98,15 @@ user-select: none;
     height: 30px;
     width: 30px;
     }
+
+    
 @media screen and (max-width: 900px) {
     .wrapper .carousel {
         grid-auto-columns: calc((100% / 2) - 9px);
-    }
-    body{
-        text-align: center;
     }
 }
 @media screen and (max-width: 600px) {
     .wrapper .carousel {
         grid-auto-columns: 95%;
-    }
-      body{
-        text-align: center;
     }
 }
