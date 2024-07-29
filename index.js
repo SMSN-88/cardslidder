@@ -61,13 +61,7 @@ carousel.addEventListener("mousedown", dragStop);
 carousel.addEventListener("mousemove", dragStop);
 document.addEventListener("mouseup", dragStop);
 
-
-window.addEventListener('load', function() {
-    var audio = document.getElementById('autoplayAudio');
-    // Try to play the audio after a slight delay
-    setTimeout(function() {
-        audio.play().catch(function(error) {
-            console.log('Autoplay was prevented: ' + error);
-        });
-    }, 100);
+window.addEventListener('load', function(){
+    var audio = document.getElementById('myAudio');
+    audio.play();
 });
